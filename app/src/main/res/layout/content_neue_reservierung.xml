@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_neue_reservierung"
+    tools:context="com.ttssoftware.android.reservierung.NeueReservierung">
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_sportart"
+        android:layout_marginTop="46dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/sportart"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/sp_court"
+        android:layout_alignStart="@+id/sp_court" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_court"
+        android:spinnerMode="dropdown"
+        android:entries="@array/court"
+        android:layout_below="@+id/sp_sportart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp_zeit"
+        android:spinnerMode="dropdown"
+        android:entries="@array/zeit"
+        android:layout_below="@+id/sp_court"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservieren"
+        android:id="@+id/btn_reservieren"
+        android:layout_below="@+id/sp_zeit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

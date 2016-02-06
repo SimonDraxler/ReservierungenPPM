@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Reservierung</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_reservierungen">Reservierungen</string>
+    <string name="title_activity_neue_reservierung">NeueReservierung</string>
+    <string name="title_activity_register">Register</string>
+    <string-array name="sportart">
+        <item>Squash</item>
+        <item>Tennis</item>
+        <item>Badminton</item>
+    </string-array>
+    <string-array name="court">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="zeit">
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+    </string-array>
+</resources>
